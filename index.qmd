@@ -54,4 +54,10 @@ format:
 
 ------------------------------------------------------------------------
 
-Header image: by https://unsplash.com/@vladhilitanu
+# Contribute
+
+Feel free to improve this repository by suggesting corrections or new content. You can directly edit the content [here](https://github.com/paternogbc/ecological-toolbox/blob/master/index.qmd) or submit a Pull Request on our [GitHub repository](https://github.com/paternogbc/ecological-toolbox).
+
+------------------------------------------------------------------------
+
+Header image: by [vladhilitanu](https://unsplash.com/@vladhilitanu)
