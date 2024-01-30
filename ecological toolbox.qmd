@@ -1,0 +1,57 @@
+---
+title: "Ecological Toolbox:  A short guide for research projects in ecology"
+author: Gustavo Paterno
+date: 2024-01-19
+format:
+  html:
+    theme: flaty
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+---
+
+![](images/vlad-hilitanu-pt7QzB4ZLWw-unsplash.jpg)
+
+## Before writing your aims & hypothesis
+
+-   Betts MG , Hadley AS , Frey DW , et al. **When are hypotheses useful in ecology and evolution?**. Ecol Evol. 2021; 11: 5762--5776. \| [link](https://doi.org/10.1002/ece3.7365)
+
+-   Popovic, et al. 2024. **Four principles for improved statistical ecology.** Methods in Ecology and Evolution, 00, 1--16. \| [link](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14270)
+
+## Before collecting data
+
+-   Zeleny D. (2022). Blog Post: **Sampling design of ecological experiments.** \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:sampling_design)
+
+-   Zeleny D. (2022). Blog Post: **Pseudoreplication & autocorrelation**. \| [link](https://davidzeleny.net/blog/2022/03/21/pseudoreplications-more-tricky-than-we-may-think/).
+
+-   BES Guide: "**Data Management** (2019) \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
+
+## Before writing code and data analysis
+
+-   BES Guide: "**Reproducible Code** (2019) \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
+
+-   Zenelny 2023. Analysis of community ecology data in R. \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:start)
+
+-   Zuur, A.F., Ieno, E.N. and Elphick, C.S. (2010), **A protocol for data exploration to avoid common statistical problems**. Methods in Ecology and Evolution, 1: 3-14. \| [link](https://doi.org/10.1111/j.2041-210X.2009.00001.x)
+
+-   Zuur, A.F. and Ieno, E.N. (2016), **A protocol for conducting and presenting results of regression-type analyses**. Methods Ecol Evol, 7: 636-645. \| [link](https://doi.org/10.1111/2041-210X.12577)
+
+-   Harrison, X. A., Donaldson, L., Correa-Cano, M. E., Evans, J., Fisher, D. N., Goodwin, C. E. D., Robinson, B. S., Hodgson, D. J., & Inger, R. (2018). **A brief introduction to mixed effects modelling and multi-model inference in ecology**. PeerJ, 2018(5), 1--32 \| [link](https://doi.org/10.7717/peerj.4794)
+
+## Before writing your manuscript
+
+-   Turbek, S.P., Chock, T.M., Donahue, K., Havrilla, C.A., Oliverio, A.M., Polutchko, S.K., Shoemaker, L.G. and Vimercati, L. (2016), **Scientific Writing Made Easy: A Step-by-Step Guide to Undergraduate Writing in the Biological Sciences**. Bull Ecol Soc Am, 97: 417-426. \| [link](https://doi.org/10.1002/bes2.1258)
+
+-   The British Ecological Society **Short Guide to Scientific Writing** \| [link](https://besjournals.onlinelibrary.wiley.com/hub/journal/13652435/journal-resources/guide-to-scientific-writing)
+
+-   McGill (2016). BlogPost: **The 5 pivotal paragraphs in a paper.** \| [link](https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/)
+
+-   Davis, Amy J., and Shannon Kay. 2023. **Writing Statistical Methods for Ecologists.** Ecosphere 14(5): e4539 \| [link](https://doi.org/10.1002/ecs2.4539)
+
+## Before publishing your manuscript
+
+-   BES Guide: **A Guide to Getting Published in Ecology and Evolution. (2015)** \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2017/06/BES-Getting-Published-Guide-2017_web.pdf)
+
+------------------------------------------------------------------------
+
+Header image: by https://unsplash.com/@vladhilitanu
