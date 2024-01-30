@@ -38,6 +38,8 @@ format:
 
 -   Harrison, X. A., Donaldson, L., Correa-Cano, M. E., Evans, J., Fisher, D. N., Goodwin, C. E. D., Robinson, B. S., Hodgson, D. J., & Inger, R. (2018). **A brief introduction to mixed effects modelling and multi-model inference in ecology**. PeerJ, 2018(5), 1--32 \| [link](https://doi.org/10.7717/peerj.4794)
 
+-   **Data Science for Ecologists** - Courses and tutorials from Coding Club \| [link](https://ourcodingclub.github.io/)
+
 ## Before making figures
 
 -   Get some inspiration and code templates at [The R Graph Gallary](https://r-graph-gallery.com/)
