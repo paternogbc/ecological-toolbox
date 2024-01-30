@@ -38,6 +38,18 @@ format:
 
 -   Harrison, X. A., Donaldson, L., Correa-Cano, M. E., Evans, J., Fisher, D. N., Goodwin, C. E. D., Robinson, B. S., Hodgson, D. J., & Inger, R. (2018). **A brief introduction to mixed effects modelling and multi-model inference in ecology**. PeerJ, 2018(5), 1--32 \| [link](https://doi.org/10.7717/peerj.4794)
 
+## Before making figures
+
+-   Get some inspiration and code templates at [The R Graph Gallary](https://r-graph-gallery.com/)
+
+-   Weissgerber, T. L., Milic, N. M., Winham, S. J., & Garovic, V. D. (2015). **Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm.** PLOS Biology, 13(4), e1002128 \| [link](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
+
+-   Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). **Ten Simple Rules for Better Figures**. PLoS Computational Biology, 10(9), e1003833 \| [link](https://doi.org/10.1371/journal.pcbi.1003833)
+
+Going deeper:
+
+-   Wilke Claus 2019. Book: **Fundamentals of Data Visualization** \| [link](https://clauswilke.com/dataviz/)
+
 ## Before writing your manuscript
 
 -   Turbek, S.P., Chock, T.M., Donahue, K., Havrilla, C.A., Oliverio, A.M., Polutchko, S.K., Shoemaker, L.G. and Vimercati, L. (2016), **Scientific Writing Made Easy: A Step-by-Step Guide to Undergraduate Writing in the Biological Sciences**. Bull Ecol Soc Am, 97: 417-426. \| [link](https://doi.org/10.1002/bes2.1258)
