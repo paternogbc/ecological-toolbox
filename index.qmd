@@ -32,11 +32,19 @@ format:
 
 ## Before analyzing data
 
+Define the purpose of your analysis
+
+-   Tredennick, A. T., G. Hooker, S. P. Ellner, and P. B. Adler. 2021. **A practical guide to selecting models for exploration, inference, and prediction in ecology**. *Ecology* 102(6):e03336. \| [link](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3336)
+
+Key papers for avoiding statistical problems
+
 -   Zuur, A.F., Ieno, E.N. and Elphick, C.S. (2010), **A protocol for data exploration to avoid common statistical problems**. Methods in Ecology and Evolution, 1: 3-14. \| [link](https://doi.org/10.1111/j.2041-210X.2009.00001.x)
 
 -   Zuur, A.F. and Ieno, E.N. (2016), **A protocol for conducting and presenting results of regression-type analyses**. Methods Ecol Evol, 7: 636-645. \| [link](https://doi.org/10.1111/2041-210X.12577)
 
 -   Harrison, X. A., Donaldson, L., Correa-Cano, M. E., Evans, J., Fisher, D. N., Goodwin, C. E. D., Robinson, B. S., Hodgson, D. J., & Inger, R. (2018). **A brief introduction to mixed effects modelling and multi-model inference in ecology**. PeerJ, 2018(5), 1--32 \| [link](https://doi.org/10.7717/peerj.4794)
+
+Going further
 
 -   **Data Science for Ecologists** - Courses and tutorials from Coding Club \| [link](https://ourcodingclub.github.io/)
 
