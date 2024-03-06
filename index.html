@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.2.475">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Gustavo Paterno">
-<meta name="dcterms.date" content="2024-01-19">
+<meta name="dcterms.date" content="2024-02-02">
 
 <title>Ecological Toolbox: A short guide for research projects in ecology</title>
 <style>
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -47,11 +47,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#before-writing-your-aims-hypothesis" id="toc-before-writing-your-aims-hypothesis" class="nav-link active" data-scroll-target="#before-writing-your-aims-hypothesis">Before writing your aims &amp; hypothesis</a></li>
+  <li><a href="#before-defining-study-aims-hypothesis" id="toc-before-defining-study-aims-hypothesis" class="nav-link active" data-scroll-target="#before-defining-study-aims-hypothesis">Before defining study aims &amp; hypothesis</a></li>
   <li><a href="#before-collecting-data" id="toc-before-collecting-data" class="nav-link" data-scroll-target="#before-collecting-data">Before collecting data</a></li>
-  <li><a href="#before-writing-code-and-data-analysis" id="toc-before-writing-code-and-data-analysis" class="nav-link" data-scroll-target="#before-writing-code-and-data-analysis">Before writing code and data analysis</a></li>
-  <li><a href="#before-making-figures" id="toc-before-making-figures" class="nav-link" data-scroll-target="#before-making-figures">Before making figures</a></li>
-  <li><a href="#before-writing-your-manuscript" id="toc-before-writing-your-manuscript" class="nav-link" data-scroll-target="#before-writing-your-manuscript">Before writing your manuscript</a></li>
+  <li><a href="#before-writing-code" id="toc-before-writing-code" class="nav-link" data-scroll-target="#before-writing-code">Before writing code</a></li>
+  <li><a href="#before-analyzing-data" id="toc-before-analyzing-data" class="nav-link" data-scroll-target="#before-analyzing-data">Before analyzing data</a>
+  <ul class="collapse">
+  <li><a href="#before-model-selection" id="toc-before-model-selection" class="nav-link" data-scroll-target="#before-model-selection">Before model selection</a></li>
+  </ul></li>
+  <li><a href="#before-making-figures" id="toc-before-making-figures" class="nav-link" data-scroll-target="#before-making-figures">Before making figures</a>
+  <ul class="collapse">
+  <li><a href="#types-of-data-visualizations" id="toc-types-of-data-visualizations" class="nav-link" data-scroll-target="#types-of-data-visualizations">Types of data visualizations:</a></li>
+  <li><a href="#going-deeper" id="toc-going-deeper" class="nav-link" data-scroll-target="#going-deeper">Going deeper</a></li>
+  <li><a href="#choosing-the-right-colors" id="toc-choosing-the-right-colors" class="nav-link" data-scroll-target="#choosing-the-right-colors">Choosing the right colors</a></li>
+  </ul></li>
+  <li><a href="#before-writing-your-manuscript" id="toc-before-writing-your-manuscript" class="nav-link" data-scroll-target="#before-writing-your-manuscript">Before writing your manuscript</a>
+  <ul class="collapse">
+  <li><a href="#writing-a-author-contributions" id="toc-writing-a-author-contributions" class="nav-link" data-scroll-target="#writing-a-author-contributions">Writing a author contributions</a></li>
+  </ul></li>
   <li><a href="#before-publishing-your-manuscript" id="toc-before-publishing-your-manuscript" class="nav-link" data-scroll-target="#before-publishing-your-manuscript">Before publishing your manuscript</a></li>
   <li><a href="#contribute" id="toc-contribute" class="nav-link" data-scroll-target="#contribute">Contribute</a></li>
   </ul>
@@ -78,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 19, 2024</p>
+      <p class="date">February 2, 2024</p>
     </div>
   </div>
   
@@ -89,8 +101,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><img src="images/vlad-hilitanu-pt7QzB4ZLWw-unsplash.jpg" class="img-fluid"></p>
-<section id="before-writing-your-aims-hypothesis" class="level2">
-<h2 class="anchored" data-anchor-id="before-writing-your-aims-hypothesis">Before writing your aims &amp; hypothesis</h2>
+<section id="before-defining-study-aims-hypothesis" class="level2">
+<h2 class="anchored" data-anchor-id="before-defining-study-aims-hypothesis">Before defining study aims &amp; hypothesis</h2>
 <ul>
 <li><p>Betts MG , Hadley AS , Frey DW , et al.&nbsp;<strong>When are hypotheses useful in ecology and evolution?</strong>. Ecol Evol. 2021; 11: 5762–5776. | <a href="https://doi.org/10.1002/ece3.7365">link</a></p></li>
 <li><p>Popovic, et al.&nbsp;2024. <strong>Four principles for improved statistical ecology.</strong> Methods in Ecology and Evolution, 00, 1–16. | <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14270">link</a></p></li>
@@ -104,37 +116,85 @@ ul.task-list li input[type="checkbox"] {
 <li><p>BES Guide: “<strong>Data Management</strong> (2019) | <a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf?utm_source=web&amp;utm_medium=web&amp;utm_campaign=better_science">link</a></p></li>
 </ul>
 </section>
-<section id="before-writing-code-and-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="before-writing-code-and-data-analysis">Before writing code and data analysis</h2>
+<section id="before-writing-code" class="level2">
+<h2 class="anchored" data-anchor-id="before-writing-code">Before writing code</h2>
 <ul>
-<li><p>BES Guide: “<strong>Reproducible Code</strong> (2019) | <a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&amp;utm_medium=web&amp;utm_campaign=better_science">link</a></p></li>
-<li><p>Zenelny 2023. Analysis of community ecology data in R. | <a href="https://www.davidzeleny.net/anadat-r/doku.php/en:start">link</a></p></li>
+<li>BES Guide: “<strong>Reproducible Code</strong> (2019) | <a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&amp;utm_medium=web&amp;utm_campaign=better_science">link</a></li>
+</ul>
+</section>
+<section id="before-analyzing-data" class="level2">
+<h2 class="anchored" data-anchor-id="before-analyzing-data">Before analyzing data</h2>
+<ul>
 <li><p>Zuur, A.F., Ieno, E.N. and Elphick, C.S. (2010), <strong>A protocol for data exploration to avoid common statistical problems</strong>. Methods in Ecology and Evolution, 1: 3-14. | <a href="https://doi.org/10.1111/j.2041-210X.2009.00001.x">link</a></p></li>
 <li><p>Zuur, A.F. and Ieno, E.N. (2016), <strong>A protocol for conducting and presenting results of regression-type analyses</strong>. Methods Ecol Evol, 7: 636-645. | <a href="https://doi.org/10.1111/2041-210X.12577">link</a></p></li>
 <li><p>Harrison, X. A., Donaldson, L., Correa-Cano, M. E., Evans, J., Fisher, D. N., Goodwin, C. E. D., Robinson, B. S., Hodgson, D. J., &amp; Inger, R. (2018). <strong>A brief introduction to mixed effects modelling and multi-model inference in ecology</strong>. PeerJ, 2018(5), 1–32 | <a href="https://doi.org/10.7717/peerj.4794">link</a></p></li>
 <li><p><strong>Data Science for Ecologists</strong> - Courses and tutorials from Coding Club | <a href="https://ourcodingclub.github.io/">link</a></p></li>
+<li><p>Zeleny 2023. Blog: Analysis of community ecology data in R. | <a href="https://www.davidzeleny.net/anadat-r/doku.php/en:start">link</a></p></li>
 </ul>
+<section id="before-model-selection" class="level3">
+<h3 class="anchored" data-anchor-id="before-model-selection">Before model selection</h3>
+<ul>
+<li>C. Sutherland, D. Hare, P. J. Johnson, D. W. Linden, R. A. Montgomery, and E. Droge (2023). <strong>Practical advice on variable selection and reporting using Akaike information criterion.</strong> Proceedings of the Royal Society B: Biological Sciences, vol.&nbsp;290, no. 2007, Sep.&nbsp;2023. | <a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2023.1261">link</a></li>
+</ul>
+</section>
 </section>
 <section id="before-making-figures" class="level2">
 <h2 class="anchored" data-anchor-id="before-making-figures">Before making figures</h2>
+<div class="callout-tip callout callout-style-simple callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Must read
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><p>Get some inspiration and code templates at <a href="https://r-graph-gallery.com/">The R Graph Gallary</a></p></li>
 <li><p>Weissgerber, T. L., Milic, N. M., Winham, S. J., &amp; Garovic, V. D. (2015). <strong>Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm.</strong> PLOS Biology, 13(4), e1002128 | <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">link</a></p></li>
 <li><p>Rougier, N. P., Droettboom, M., &amp; Bourne, P. E. (2014). <strong>Ten Simple Rules for Better Figures</strong>. PLoS Computational Biology, 10(9), e1003833 | <a href="https://doi.org/10.1371/journal.pcbi.1003833">link</a></p></li>
 </ul>
-<p>Going deeper:</p>
+</div>
+</div>
+<section id="types-of-data-visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-data-visualizations">Types of data visualizations:</h3>
+<ul>
+<li>Get some inspiration and code templates at <a href="https://r-graph-gallery.com/">The R Graph Gallary</a></li>
+</ul>
+</section>
+<section id="going-deeper" class="level3">
+<h3 class="anchored" data-anchor-id="going-deeper">Going deeper</h3>
 <ul>
 <li>Wilke Claus 2019. Book: <strong>Fundamentals of Data Visualization</strong> | <a href="https://clauswilke.com/dataviz/">link</a></li>
 </ul>
 </section>
+<section id="choosing-the-right-colors" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-right-colors">Choosing the right colors</h3>
+<ul>
+<li><p>Explore and choose the right color scheme ar R-color brewer | link</p></li>
+<li><p>Use scientific proven pallets to increase accuracy | link</p></li>
+</ul>
+</section>
+</section>
 <section id="before-writing-your-manuscript" class="level2">
 <h2 class="anchored" data-anchor-id="before-writing-your-manuscript">Before writing your manuscript</h2>
+<p>Agree on authorship as soon as possible</p>
+<ul>
+<li>Idiv - Molecular Interaction Ecology <strong>Co-authorship Charte</strong> | <a href="https://www.idiv.de/fileadmin/content/Files_MIE/202006MIE_coauthorship_chartervs3-website.pdf">link</a></li>
+</ul>
+<p>Scientific writing tips / guidelines</p>
 <ul>
 <li><p>Turbek, S.P., Chock, T.M., Donahue, K., Havrilla, C.A., Oliverio, A.M., Polutchko, S.K., Shoemaker, L.G. and Vimercati, L. (2016), <strong>Scientific Writing Made Easy: A Step-by-Step Guide to Undergraduate Writing in the Biological Sciences</strong>. Bull Ecol Soc Am, 97: 417-426. | <a href="https://doi.org/10.1002/bes2.1258">link</a></p></li>
 <li><p>The British Ecological Society <strong>Short Guide to Scientific Writing</strong> | <a href="https://besjournals.onlinelibrary.wiley.com/hub/journal/13652435/journal-resources/guide-to-scientific-writing">link</a></p></li>
 <li><p>McGill (2016). BlogPost: <strong>The 5 pivotal paragraphs in a paper.</strong> | <a href="https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/">link</a></p></li>
 <li><p>Davis, Amy J., and Shannon Kay. 2023. <strong>Writing Statistical Methods for Ecologists.</strong> Ecosphere 14(5): e4539 | <a href="https://doi.org/10.1002/ecs2.4539">link</a></p></li>
 </ul>
+<section id="writing-a-author-contributions" class="level3">
+<h3 class="anchored" data-anchor-id="writing-a-author-contributions">Writing a author contributions</h3>
+<ul>
+<li>CRediT (Contributor Roles Taxonomy) | <a href="https://credit.niso.org/">link</a></li>
+</ul>
+</section>
 </section>
 <section id="before-publishing-your-manuscript" class="level2">
 <h2 class="anchored" data-anchor-id="before-publishing-your-manuscript">Before publishing your manuscript</h2>
@@ -179,23 +239,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -260,92 +306,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -389,7 +349,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

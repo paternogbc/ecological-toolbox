@@ -1,7 +1,7 @@
 ---
 title: "Ecological Toolbox:  A short guide for research projects in ecology"
 author: Gustavo Paterno
-date: 2024-01-19
+date: 2024-02-02
 format:
   html:
     theme: flaty
@@ -12,7 +12,7 @@ format:
 
 ![](images/vlad-hilitanu-pt7QzB4ZLWw-unsplash.jpg)
 
-## Before writing your aims & hypothesis
+## Before defining study aims & hypothesis
 
 -   Betts MG , Hadley AS , Frey DW , et al. **When are hypotheses useful in ecology and evolution?**. Ecol Evol. 2021; 11: 5762--5776. \| [link](https://doi.org/10.1002/ece3.7365)
 
@@ -26,11 +26,11 @@ format:
 
 -   BES Guide: "**Data Management** (2019) \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
 
-## Before writing code and data analysis
+## Before writing code
 
 -   BES Guide: "**Reproducible Code** (2019) \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
 
--   Zenelny 2023. Analysis of community ecology data in R. \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:start)
+## Before analyzing data
 
 -   Zuur, A.F., Ieno, E.N. and Elphick, C.S. (2010), **A protocol for data exploration to avoid common statistical problems**. Methods in Ecology and Evolution, 1: 3-14. \| [link](https://doi.org/10.1111/j.2041-210X.2009.00001.x)
 
@@ -40,19 +40,43 @@ format:
 
 -   **Data Science for Ecologists** - Courses and tutorials from Coding Club \| [link](https://ourcodingclub.github.io/)
 
+-   Zeleny 2023. Blog: Analysis of community ecology data in R. \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:start)
+
+### Before model selection
+
+-   C. Sutherland, D. Hare, P. J. Johnson, D. W. Linden, R. A. Montgomery, and E. Droge (2023). **Practical advice on variable selection and reporting using Akaike information criterion.** Proceedings of the Royal Society B: Biological Sciences, vol. 290, no. 2007, Sep. 2023. \| [link](https://royalsocietypublishing.org/doi/10.1098/rspb.2023.1261)
+
 ## Before making figures
 
--   Get some inspiration and code templates at [The R Graph Gallary](https://r-graph-gallery.com/)
+::: {.callout-tip appearance="simple"}
+## Must read
 
 -   Weissgerber, T. L., Milic, N. M., Winham, S. J., & Garovic, V. D. (2015). **Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm.** PLOS Biology, 13(4), e1002128 \| [link](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
 
 -   Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). **Ten Simple Rules for Better Figures**. PLoS Computational Biology, 10(9), e1003833 \| [link](https://doi.org/10.1371/journal.pcbi.1003833)
+:::
 
-Going deeper:
+### Types of data visualizations:
+
+-   Get some inspiration and code templates at [The R Graph Gallary](https://r-graph-gallery.com/)
+
+### Going deeper
 
 -   Wilke Claus 2019. Book: **Fundamentals of Data Visualization** \| [link](https://clauswilke.com/dataviz/)
 
+### Choosing the right colors
+
+-   Explore and choose the right color scheme ar R-color brewer \| link
+
+-   Use scientific proven pallets to increase accuracy \| link
+
 ## Before writing your manuscript
+
+Agree on authorship as soon as possible
+
+-   Idiv - Molecular Interaction Ecology **Co-authorship Charte** \| [link](https://www.idiv.de/fileadmin/content/Files_MIE/202006MIE_coauthorship_chartervs3-website.pdf)
+
+Scientific writing tips / guidelines
 
 -   Turbek, S.P., Chock, T.M., Donahue, K., Havrilla, C.A., Oliverio, A.M., Polutchko, S.K., Shoemaker, L.G. and Vimercati, L. (2016), **Scientific Writing Made Easy: A Step-by-Step Guide to Undergraduate Writing in the Biological Sciences**. Bull Ecol Soc Am, 97: 417-426. \| [link](https://doi.org/10.1002/bes2.1258)
 
@@ -61,6 +85,10 @@ Going deeper:
 -   McGill (2016). BlogPost: **The 5 pivotal paragraphs in a paper.** \| [link](https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/)
 
 -   Davis, Amy J., and Shannon Kay. 2023. **Writing Statistical Methods for Ecologists.** Ecosphere 14(5): e4539 \| [link](https://doi.org/10.1002/ecs2.4539)
+
+### Writing a author contributions
+
+-   CRediT (Contributor Roles Taxonomy) \| [link](https://credit.niso.org/)
 
 ## Before publishing your manuscript
 
