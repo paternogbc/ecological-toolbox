@@ -101,6 +101,8 @@ Scientific writing tips / guidelines
 
 -   Davis, Amy J., and Shannon Kay. 2023. **Writing Statistical Methods for Ecologists.** Ecosphere 14(5): e4539 \| [link](https://doi.org/10.1002/ecs2.4539)
 
+-   Suggestions by a Nature science editor to make your paper fly through the review process \| [link](https://www.nature.com/articles/d41586-019-01431-z)
+
 ### Writing a author contributions
 
 -   CRediT (Contributor Roles Taxonomy) \| [link](https://credit.niso.org/)
