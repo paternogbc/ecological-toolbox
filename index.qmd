@@ -18,6 +18,8 @@ format:
 
 -   Popovic, et al. 2024. **Four principles for improved statistical ecology.** Methods in Ecology and Evolution, 00, 1--16. \| [link](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14270)
 
+-   Book chapter by Gonçalves-Souza, T., Provete, D.B., Garey, M.V., da Silva, F.R., Albuquerque, U.P. (2019). **Going Back to Basics: How to Master the Art of Making Scientifically Sound Questions.** | [link](https://doi.org/10.1007/978-1-4939-8919-5_7)
+
 ## Before collecting data
 
 -   Zeleny D. (2022). Blog Post: **Sampling design of ecological experiments.** \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:sampling_design)
