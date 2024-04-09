@@ -52,6 +52,12 @@ Improve your management skills
 
 ## Before analyzing data
 
+Learn R ;) 
+
+- Online book: McKinley et al. **Introduction to Data Analysis with R**. | [link](https://datawithr.com/)
+- Online book: Da Silva et al. 2022. **Ecological analysis in R** (in portuguese) | [link](https://analises-ecologicas.netlify.app/)
+
+
 Define the purpose of your analysis
 
 -   Tredennick, A. T., G. Hooker, S. P. Ellner, and P. B. Adler. 2021. **A practical guide to selecting models for exploration, inference, and prediction in ecology**. *Ecology* 102(6):e03336. \| [link](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3336)
