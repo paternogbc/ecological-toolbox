@@ -22,24 +22,20 @@ format:
 
 ## Before collecting data
 
-
 ::: {.callout-tip appearance="simple"}
 ## Must read
 
--   Marshall, D. J. (2024). **Principles of experimental design for ecology and evolution**. Ecology Letters, 27(4), e14400. | [link](https://doi.org/10.1111/ele.14400)
-- Kimmel, K., Dee, L. E., Avolio, M. L., & Ferraro, P. J. (2021). **Causal assumptions and causal inference in ecological experiments**. Trends in Ecology & Evolution, 36(12), 1141–1152. | [link](https://doi.org/10.1016/j.tree.2021.08.008)
-
-
+-   Marshall, D. J. (2024). **Principles of experimental design for ecology and evolution**. Ecology Letters, 27(4), e14400. \| [link](https://doi.org/10.1111/ele.14400)
+-   Kimmel, K., Dee, L. E., Avolio, M. L., & Ferraro, P. J. (2021). **Causal assumptions and causal inference in ecological experiments**. Trends in Ecology & Evolution, 36(12), 1141–1152. \| [link](https://doi.org/10.1016/j.tree.2021.08.008)
 :::
 
-Think about design, causal links and confounding factors 
+Think about design, causal links and confounding factors
 
 -   Zeleny D. (2022). Blog Post: **Sampling design of ecological experiments.** \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:sampling_design)
 
 -   Zeleny D. (2022). Blog Post: **Pseudoreplication & autocorrelation**. \| [link](https://davidzeleny.net/blog/2022/03/21/pseudoreplications-more-tricky-than-we-may-think/).
 
-- Byrnes, J. E. K., & Dee, L. E. (2024). **Causal inference with observational data and unobserved confounding variables**. | [link](https://doi.org/10.1101/2024.02.26.582072)
-
+-   Byrnes, J. E. K., & Dee, L. E. (2024). **Causal inference with observational data and unobserved confounding variables**. \| [link](https://doi.org/10.1101/2024.02.26.582072)
 
 Improve your management skills
 
@@ -52,11 +48,10 @@ Improve your management skills
 
 ## Before analyzing data
 
-Learn R ;) 
+Learn R ;)
 
-- Online book: McKinley et al. **Introduction to Data Analysis with R**. | [link](https://datawithr.com/)
-- Online book: Da Silva et al. 2022. **Ecological analysis in R** (in portuguese) | [link](https://analises-ecologicas.netlify.app/)
-
+-   Online book: McKinley et al. **Introduction to Data Analysis with R**. \| [link](https://datawithr.com/)
+-   Online book: Da Silva et al. 2022. **Ecological analysis in R** (in portuguese) \| [link](https://analises-ecologicas.netlify.app/)
 
 Define the purpose of your analysis
 
