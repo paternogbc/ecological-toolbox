@@ -89,6 +89,8 @@ Going further
 -   Weissgerber, T. L., Milic, N. M., Winham, S. J., & Garovic, V. D. (2015). **Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm.** PLOS Biology, 13(4), e1002128 \| [link](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
 
 -   Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). **Ten Simple Rules for Better Figures**. PLoS Computational Biology, 10(9), e1003833 \| [link](https://doi.org/10.1371/journal.pcbi.1003833)
+
+-    Alla Katsnelson (2021). **Colour me better: fixing figures for colour blindness**. Nature 598, 224-225 (2021) \| [link](https://doi.org/10.1038/d41586-021-02696-z)
 :::
 
 ### Types of data visualizations:
@@ -104,6 +106,8 @@ Going further
 -   Explore and choose the right color scheme ar R-color brewer \| [link](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 
 -   Use Scico in R: color-blind friendly pallets to represent data fairly \| [link](https://www.data-imaginist.com/posts/2018-05-30-scico-and-the-colour-conundrum/)
+
+- Check if you figure is colorblind safe using this online simulator: [link](https://www.color-blindness.com/coblis-color-blindness-simulator/). 
 
 ## Before writing your manuscript
 
