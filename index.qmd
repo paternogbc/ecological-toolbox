@@ -26,10 +26,10 @@ format:
 ## Must read
 
 -   Marshall, D. J. (2024). **Principles of experimental design for ecology and evolution**. Ecology Letters, 27(4), e14400. \| [link](https://doi.org/10.1111/ele.14400)
--   Kimmel, K., Dee, L. E., Avolio, M. L., & Ferraro, P. J. (2021). **Causal assumptions and causal inference in ecological experiments**. Trends in Ecology & Evolution, 36(12), 1141–1152. \| [link](https://doi.org/10.1016/j.tree.2021.08.008)
+-   Kimmel, K., Dee, L. E., Avolio, M. L., & Ferraro, P. J. (2021). **Causal assumptions and causal inference in ecological experiments**. Trends in Ecology & Evolution, 36(12), 1141--1152. \| [link](https://doi.org/10.1016/j.tree.2021.08.008)
 :::
 
-Think about design, causal links and confounding factors
+Also, think about experimental design, causal links and confounding factors:
 
 -   Zeleny D. (2022). Blog Post: **Sampling design of ecological experiments.** \| [link](https://www.davidzeleny.net/anadat-r/doku.php/en:sampling_design)
 
@@ -40,6 +40,10 @@ Think about design, causal links and confounding factors
 Improve your management skills
 
 -   BES Guide: "**Data Management** (2019) \| [link](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Data-Management-2019.pdf?utm_source=web&utm_medium=web&utm_campaign=better_science)
+
+Going deeper:
+
+-   Take a look at this great book: **The Turing Way handbook to reproducible, ethical and collaborative data science** \| [Link](https://book.the-turing-way.org/index.html)
 
 ## Before writing code
 
@@ -90,7 +94,7 @@ Going further
 
 -   Rougier, N. P., Droettboom, M., & Bourne, P. E. (2014). **Ten Simple Rules for Better Figures**. PLoS Computational Biology, 10(9), e1003833 \| [link](https://doi.org/10.1371/journal.pcbi.1003833)
 
--    Alla Katsnelson (2021). **Colour me better: fixing figures for colour blindness**. Nature 598, 224-225 (2021) \| [link](https://doi.org/10.1038/d41586-021-02696-z)
+-   Alla Katsnelson (2021). **Colour me better: fixing figures for colour blindness**. Nature 598, 224-225 (2021) \| [link](https://doi.org/10.1038/d41586-021-02696-z)
 :::
 
 ### Types of data visualizations:
@@ -107,7 +111,7 @@ Going further
 
 -   Use Scico in R: color-blind friendly pallets to represent data fairly \| [link](https://www.data-imaginist.com/posts/2018-05-30-scico-and-the-colour-conundrum/)
 
-- Check if you figure is colorblind safe using this online simulator: [link](https://www.color-blindness.com/coblis-color-blindness-simulator/). 
+-   Check if you figure is colorblind safe using this online simulator: [link](https://www.color-blindness.com/coblis-color-blindness-simulator/).
 
 ## Before writing your manuscript
 
